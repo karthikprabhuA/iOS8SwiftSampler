@@ -12,6 +12,7 @@
 		28B7948F196E9E8A001C784B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28B7948D196E9E8A001C784B /* Main.storyboard */; };
 		28B79491196E9E8A001C784B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B79490196E9E8A001C784B /* Images.xcassets */; };
 		28B7949D196E9E8A001C784B /* iOS8SwiftSamplerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B7949C196E9E8A001C784B /* iOS8SwiftSamplerTests.swift */; };
+		28B794A7196EA4A1001C784B /* KPActivityIndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B794A6196EA4A1001C784B /* KPActivityIndicatorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		28B79496196E9E8A001C784B /* iOS8SwiftSamplerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS8SwiftSamplerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B7949B196E9E8A001C784B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28B7949C196E9E8A001C784B /* iOS8SwiftSamplerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS8SwiftSamplerTests.swift; sourceTree = "<group>"; };
+		28B794A6196EA4A1001C784B /* KPActivityIndicatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPActivityIndicatorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				28B79489196E9E8A001C784B /* AppDelegate.swift */,
 				28B7948B196E9E8A001C784B /* ViewController.swift */,
+				28B794A6196EA4A1001C784B /* KPActivityIndicatorViewController.swift */,
 				28B7948D196E9E8A001C784B /* Main.storyboard */,
 				28B79490196E9E8A001C784B /* Images.xcassets */,
 				28B79487196E9E8A001C784B /* Supporting Files */,
@@ -210,6 +213,7 @@
 			files = (
 				28B7948C196E9E8A001C784B /* ViewController.swift in Sources */,
 				28B7948A196E9E8A001C784B /* AppDelegate.swift in Sources */,
+				28B794A7196EA4A1001C784B /* KPActivityIndicatorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +401,7 @@
 				28B794A2196E9E8A001C784B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28B794A3196E9E8A001C784B /* Build configuration list for PBXNativeTarget "iOS8SwiftSamplerTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +410,7 @@
 				28B794A5196E9E8A001C784B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
