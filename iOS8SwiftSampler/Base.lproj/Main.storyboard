@@ -48,6 +48,89 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--Date Picker View Controller-->
+        <scene sceneID="RxG-fm-0zC">
+            <objects>
+                <viewController storyboardIdentifier="KPDatePickerViewController" id="67y-DL-tLS" customClass="KPDatePickerViewController" customModule="iOS8SwiftSampler" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4CJ-jp-rvt"/>
+                        <viewControllerLayoutGuide type="bottom" id="401-ad-O8l"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1qs-Hx-U7N">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Select date" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8XG-Jn-Dl4">
+                                <rect key="frame" x="41" y="119" width="205" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="dateTextField" destination="8XG-Jn-Dl4" id="CnL-T8-aZb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K8k-10-ncv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="785"/>
+        </scene>
+        <!--Action Sheet View Controller-->
+        <scene sceneID="ghd-QI-hSi">
+            <objects>
+                <viewController storyboardIdentifier="KPActionSheetViewController" id="fSL-ed-oSA" customClass="KPActionSheetViewController" customModule="iOS8SwiftSampler" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MUm-ac-Md8"/>
+                        <viewControllerLayoutGuide type="bottom" id="7RX-Qg-9VL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Pxn-DX-eet">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Igx-Ch-GU9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="865" y="977"/>
+        </scene>
+        <!--Alert View Controller-->
+        <scene sceneID="Zj0-aR-Rhp">
+            <objects>
+                <viewController storyboardIdentifier="KPAlertViewController" id="GhC-ul-pyj" customClass="KPAlertViewController" customModule="iOS8SwiftSampler" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ACB-eY-v8v"/>
+                        <viewControllerLayoutGuide type="bottom" id="Wof-8P-8oF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hp6-h5-8IH">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xaI-Fd-mf5">
+                                <rect key="frame" x="167" y="255" width="127" height="30"/>
+                                <state key="normal" title="AlertView textField">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showAlertView" destination="GhC-ul-pyj" eventType="touchUpInside" id="l7u-1D-lPU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zcp-gB-6jy">
+                                <rect key="frame" x="167" y="144" width="116" height="30"/>
+                                <state key="normal" title="Simple AlertView">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showSimpleAlertView" destination="GhC-ul-pyj" eventType="touchUpInside" id="Wzc-Iw-DmU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DcL-ga-Mpj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1284" y="992"/>
+        </scene>
         <!--Activity Indicator View Controller-->
         <scene sceneID="aI7-VL-sHO">
             <objects>

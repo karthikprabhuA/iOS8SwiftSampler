@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var tableViewData:[String] = ["UIActivityIndicator","UIAlertView","UIActionSheet","UIButton"];
+    var tableViewData:[String] = ["UIActivityIndicator","UIAlertView","UIActionSheet","UIButton","UIDatePicker"];
     
     override func viewDidLoad() {
         super.viewDidLoad();
@@ -49,6 +49,21 @@ class ViewController: UIViewController {
         case 0:
                 let secondViewController = self.storyboard.instantiateViewControllerWithIdentifier("KPActivityIndicatorViewController") as KPActivityIndicatorViewController;
                 self.navigationController.pushViewController(secondViewController, animated: true);
+            break;
+        case 1:
+            let alertViewController = self.storyboard.instantiateViewControllerWithIdentifier("KPAlertViewController") as KPAlertViewController;
+            self.navigationController.pushViewController(alertViewController, animated: true);
+            
+            break;
+        case 2:
+            let actionSheetViewController = self.storyboard.instantiateViewControllerWithIdentifier("KPActionSheetViewController") as KPActionSheetViewController;
+            self.navigationController.pushViewController(actionSheetViewController, animated: true);
+            
+            break;
+        case 4:
+                let datePicketController = self.storyboard.instantiateViewControllerWithIdentifier("KPDatePickerViewController") as KPDatePickerViewController;
+                self.navigationController.pushViewController(datePicketController, animated: true);
+            
             break;
             
         default:

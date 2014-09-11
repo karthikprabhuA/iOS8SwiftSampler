@@ -15,6 +15,7 @@ class KPActivityIndicatorViewController:UIViewController
     override func viewDidLoad()
     {
         super.viewDidLoad();
+        self.title = "UIActivityIndicatorView";
     }
     init(coder aDecoder: NSCoder!)
     {
@@ -35,7 +36,7 @@ class KPActivityIndicatorViewController:UIViewController
             button.selected = false;
             button.setTitle("Start", forState: UIControlState.Normal);
             stopActivityIndicator();
-        }        
+        }
     }
     
     func startActivityIndicator()
